@@ -28,7 +28,8 @@ get_header(); ?>
 			<?php twentythirteen_paging_nav(); ?>
 
 		<?php else : ?>
-			<?php get_template_part( 'content', 'none' ); ?>
+			<?php get_template_part( 'content', 'none' );
+			echo "hello";?>
 		<?php endif; ?>
 
 		</div><!-- #content -->
